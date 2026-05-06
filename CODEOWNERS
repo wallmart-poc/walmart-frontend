@@ -1,0 +1,4 @@
+# Browser-facing Go web application.
+# Owned by the team responsible for the customer-facing storefront UI,
+# session handling, and HTTP routing into the backend services.
+*   @wallmart-poc/storefront
