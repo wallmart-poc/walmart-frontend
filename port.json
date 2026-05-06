@@ -1,0 +1,22 @@
+{
+  "identifier": "walmart-frontend",
+  "title": "Frontend",
+  "blueprint": "service",
+  "properties": {
+    "lifecycle": "production",
+    "criticality": "critical",
+    "slack_channel": "#storefront"
+  },
+  "relations": {
+    "depends_on": [
+      "walmart-product-catalog",
+      "walmart-currency",
+      "walmart-cart",
+      "walmart-recommendations",
+      "walmart-checkout",
+      "walmart-shipping",
+      "walmart-ads",
+      "walmart-shopping-assistant"
+    ]
+  }
+}
